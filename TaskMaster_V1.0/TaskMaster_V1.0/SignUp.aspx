@@ -21,28 +21,28 @@
     &nbsp; <h2> Sign up for a better, organized lifestyle !!</h2><br />
         <br />
 &nbsp; First Name:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <asp:TextBox ID="TextBox1" runat="server" Width="210px"></asp:TextBox>
+        <asp:TextBox ID="fNameTextBx" runat="server" Width="210px"></asp:TextBox>
         <br />
         <br />
 &nbsp; Last Name:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <asp:TextBox ID="TextBox2" runat="server" Width="210px"></asp:TextBox>
+        <asp:TextBox ID="lNameTextbx" runat="server" Width="210px"></asp:TextBox>
         <br />
         <br />
 &nbsp; e-mail address :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <asp:TextBox ID="TextBox3" runat="server" Width="210px"></asp:TextBox>
+        <asp:TextBox ID="emailTextbx" runat="server" Width="210px"></asp:TextBox>
         <br />
         <br />
 &nbsp; Phone number :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <asp:TextBox ID="TextBox7" runat="server" Width="210px"></asp:TextBox>
+        <asp:TextBox ID="phoneTextbx" runat="server" Width="210px"></asp:TextBox>
         <br />
 &nbsp; (required for verification purposes only)<br />
         <br />
 &nbsp; Age :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <asp:TextBox ID="TextBox5" runat="server" Width="210px"></asp:TextBox>
+        <asp:TextBox ID="ageTextbx" runat="server" Width="210px"></asp:TextBox>
         <br />
         <br />
 &nbsp; Gender (optional):&nbsp;
-        <asp:TextBox ID="TextBox6" runat="server" Width="210px"></asp:TextBox>
+        <asp:TextBox ID="genderTextbx" runat="server" Width="210px"></asp:TextBox>
         <br />
         <br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;

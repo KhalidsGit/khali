@@ -22,17 +22,17 @@
             <br />
             <br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
-            <br />
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Enter Password<br />
-            <br />
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <asp:TextBox ID="TextBox2" runat="server"></asp:TextBox>
+            <asp:TextBox ID="userNameTextBx" runat="server"></asp:TextBox>
             <br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Enter Username<br />
             <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <asp:TextBox ID="passTextBx" runat="server"></asp:TextBox>
+            <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Enter Password<br />
+            <br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <asp:Button ID="Button1" runat="server" Height="33px" Text="Log In" Width="149px" />
+            <asp:Button ID="loginButton" runat="server" Height="33px" Text="Log In" Width="149px" />
             <br />
             <br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="SignUp.aspx">Sign Up</a> Up for TaskMaster !!<br />
@@ -42,7 +42,7 @@
                     <h2>&nbsp;</h2>
                   <h2>&copy; 2018, Synergy Scrum Corporation, LLC</h2>
 		<p>All Rights Reseved. Contents pertaining this app must not be shared or reproduced without prior authorization.<br/>
-		Please  <a href="./Contacts.aspx">contact</a> us for more information.</p>
+		Please  <a href="./Contact.aspx">contact</a> us for more information.</p>
 
         </footer>
     </form>

@@ -21,8 +21,11 @@
         </div>
         <div>
             <p>
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                Blah Blah blah Blabity blah !!!!!!<b/>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+            <p>
+                Make your busy life easier with task master.</p>
+            <p>
+                &nbsp;Blah Blah blah Blabity blah !!!!!!<b/>
                 
                 
                 Lorem Ipsum jhdflkhlk lkjflksjhflfk lkjhdfrhhflshj iuoifhdlkjh

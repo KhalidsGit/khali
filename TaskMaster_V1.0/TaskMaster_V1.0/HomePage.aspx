@@ -16,19 +16,23 @@
                     <a href="./LogIn.aspx">Log In</a>
                     <a href="./SignUp.aspx">Sign Up</a>
                     <a href="./TaskCalendar.aspx">Task Calendar</a>
+                    <a href="./Groups.aspx">Groups</a>
                     <a href="./Contact.aspx">Contact</a>
+                    
                 </nav>
         </div>
-        <div>
+        <div class="paragraphHome">
             <p>
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+            <p>Make your busy life easier with task master.</p>
+                
             <p>
-                Make your busy life easier with task master.</p>
-            <p>
-                &nbsp;Blah Blah blah Blabity blah !!!!!!<b/>
+                &nbsp;Organized, scheduled and on-time activities make life better.<br />
+                We are here to help you to reach that goal for the betterment.
+                <b/><br />
                 
                 
-                Lorem Ipsum jhdflkhlk lkjflksjhflfk lkjhdfrhhflshj iuoifhdlkjh
+                Please use our provided tools to create your lifestyle a better one.
             </p>
 
         </div>   

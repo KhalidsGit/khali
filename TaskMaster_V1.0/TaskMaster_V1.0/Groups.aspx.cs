@@ -7,12 +7,11 @@ using System.Web.UI.WebControls;
 
 namespace TaskMaster_V1._0
 {
-    public partial class TaskCalendar : System.Web.UI.Page
+    public partial class Groups : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
 
         }
-
     }
 }

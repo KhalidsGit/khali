@@ -10,7 +10,7 @@
 namespace TaskMaster_V1._0 {
     
     
-    public partial class SignUp {
+    public partial class Groups {
         
         /// <summary>
         /// form1 control.
@@ -22,102 +22,93 @@ namespace TaskMaster_V1._0 {
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
         
         /// <summary>
-        /// fNameTextBx control.
+        /// groupGamer control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox fNameTextBx;
+        protected global::System.Web.UI.WebControls.CheckBox groupGamer;
         
         /// <summary>
-        /// lNameTextbx control.
+        /// gamerLabel control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox lNameTextbx;
+        protected global::System.Web.UI.WebControls.Label gamerLabel;
         
         /// <summary>
-        /// emailTextbx control.
+        /// groupSport control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox emailTextbx;
+        protected global::System.Web.UI.WebControls.CheckBox groupSport;
         
         /// <summary>
-        /// signUpLabel control.
+        /// sportLabel control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label signUpLabel;
+        protected global::System.Web.UI.WebControls.Label sportLabel;
         
         /// <summary>
-        /// phoneTextbx control.
+        /// travelGroup control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox phoneTextbx;
+        protected global::System.Web.UI.WebControls.CheckBox travelGroup;
         
         /// <summary>
-        /// ageTextbx control.
+        /// travelLabel control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox ageTextbx;
+        protected global::System.Web.UI.WebControls.Label travelLabel;
         
         /// <summary>
-        /// userNamelbl1 control.
+        /// studyGroup control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label userNamelbl1;
+        protected global::System.Web.UI.WebControls.CheckBox studyGroup;
         
         /// <summary>
-        /// userNameTxBx control.
+        /// studyLabel control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox userNameTxBx;
+        protected global::System.Web.UI.WebControls.Label studyLabel;
         
         /// <summary>
-        /// passwordlbl control.
+        /// familyGroup control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label passwordlbl;
+        protected global::System.Web.UI.WebControls.CheckBox familyGroup;
         
         /// <summary>
-        /// passwordTxBx control.
+        /// familyLabe control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox passwordTxBx;
-        
-        /// <summary>
-        /// submitButton control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button submitButton;
+        protected global::System.Web.UI.WebControls.Label familyLabe;
     }
 }

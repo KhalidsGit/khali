@@ -15,6 +15,7 @@
                     <a href="./LogIn.aspx">Log In</a>
                     <a href="./SignUp.aspx">Sign Up</a>
                     <a href="./TaskCalendar.aspx">Task Calendar</a>
+                    <a href="./Groups.aspx">Groups</a>
                     <a href="./Contact.aspx">Contact</a>
                 </nav>
         </div>

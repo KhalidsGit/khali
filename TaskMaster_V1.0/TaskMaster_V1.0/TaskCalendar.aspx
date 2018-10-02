@@ -19,15 +19,29 @@
                     <a href="./Contact.aspx">Contact</a>
                 </nav>
         </div>
-        <div>
+        <div> &nbsp;&nbsp;&nbsp;&nbsp;
+            <br />
+            <asp:TextBox ID="calendarTxBx0" runat="server" Height="34px" Width="201px" BorderColor="Blue"></asp:TextBox><br />
+            <asp:TextBox ID="calendarTxBx" runat="server" Height="34px" Width="201px" BorderColor="#3333CC"></asp:TextBox>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <asp:Button ID="scheduleButton" runat="server" Font-Bold="True" Font-Size="Medium" Height="55px" Text="Schedule" Width="169px" BorderColor="#FF3300" BorderStyle="Double" OnClick="scheduleButton_Click" />
+            <br />
+             <asp:Label ID="displayLabel" runat="server" Text="Tasks"></asp:Label><br />
+            <asp:Calendar ID="Calendar1" runat="server" BackColor="White" BorderColor="Black" BorderStyle="Solid" CellSpacing="1" Font-Names="Verdana" Font-Size="9pt" ForeColor="Black" Height="297px" NextPrevFormat="ShortMonth" Width="436px" Caption="Task Scheduler" OnSelectionChanged="Calendar1_SelectionChanged" OnDayRender="Calendar1_DayRender">
+                            <DayHeaderStyle Font-Bold="True" Font-Size="8pt" ForeColor="#333333" Height="8pt" />
+                            <DayStyle BackColor="#CCCCCC" />
+                            <NextPrevStyle Font-Bold="True" Font-Size="8pt" ForeColor="White" />
+                            <OtherMonthDayStyle ForeColor="#999999" />
+                            <SelectedDayStyle BackColor="#333399" ForeColor="White" />
+                            <TitleStyle BackColor="#333399" BorderStyle="Solid" Font-Bold="True" Font-Size="12pt" ForeColor="White" Height="12pt" />
+                            <TodayDayStyle BackColor="#999999" ForeColor="White" />
+                        </asp:Calendar>         
             <br/>
         </div>
         <div>
             <footer>
-                    <h2>&nbsp;</h2>
-                    <h2>&nbsp;</h2>
                     <h2>&copy; 2018, Synergy Scrum 
-                        <asp:Calendar ID="Calendar1" runat="server" BackColor="#FFCC99" BorderColor="Red" BorderStyle="Double"></asp:Calendar>
+                        
                         Corporation, LLC</h2>
 		<p>All Rights Reseved. Contents pertaining this app must not be shared or reproduced without prior authorization.<br/>
 		Please  <a href="./Contact.aspx">contact</a> us for more information.</p>

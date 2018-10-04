@@ -10,22 +10,21 @@
     <form id="form1" runat="server">
     <h3><a href="HomePage.aspx">Home</a></h3>
         <address>
-            We are committed to help !!</address>
+            We are committed to helping you!</address>
         <address>
             &nbsp;</address>
+        <address>
+            <asp:Label ID="Label4" runat="server" Text="Full Name"></asp:Label>
+            :</address>
         <address>
             <asp:TextBox ID="fullNameTextbx" runat="server" Height="20px" Width="263px"></asp:TextBox>
     </address>
         <address>
-            <asp:Label ID="Label1" runat="server" Text="Full Name"></asp:Label>
-    </address>
-        <address>
             &nbsp;</address>
         <address>
-            <asp:TextBox ID="emailTextBx" runat="server" Height="20px" Width="262px"></asp:TextBox>
-    </address>
+            E-mail Address:</address>
         <address>
-            <asp:Label ID="Label2" runat="server" Text="e-mail address (required)"></asp:Label>
+            <asp:TextBox ID="emailTextBx" runat="server" Height="20px" Width="262px"></asp:TextBox>
     </address>
         <address>
             &nbsp;</address>
@@ -54,8 +53,8 @@
         <strong>Support:</strong>   <a href="mailto:Support@SyneryBuilt.com">Support@synergybuilt.com</a><br />
         <strong>Marketing:</strong> <a href="mailto:Marketing@SynergyBuilt.com">Marketing@synergybuilt.com</a>
     </address>
-    <h2>&copy; 2018, Synergy Scrum Corporation, LLC</h2>
-		<p>All Rights Reseved. Contents pertaining this app must not be shared or reproduced without prior authorization.<br/>
+    <h2>&copy; 2018, Synergy Scrums Corporation, LLC</h2>
+		<p>All Rights Resevred. Contents pertaining to this webpage must not be shared or reproduced without prior authorization.<br/>
 		Please  <a href="./Contact.aspx">contact</a> us for more information.</p>
    </form>
 </body>

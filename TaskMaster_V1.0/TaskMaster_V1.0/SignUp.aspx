@@ -10,6 +10,9 @@
         .auto-style1 {
             margin-left: 0px;
         }
+        .auto-style2 {
+            font-style: italic;
+        }
     </style>
 </head>
 <body style="left: 44px; top: -5px">
@@ -26,32 +29,23 @@
         </div>
     &nbsp; <h2> Sign up for a better, organized lifestyle !!</h2>
         <br />
-&nbsp; First Name:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <asp:TextBox ID="fNameTextBx" runat="server" Width="210px"></asp:TextBox>
+&nbsp; First Name:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<asp:TextBox ID="fNameTextBx" runat="server" Width="210px"></asp:TextBox>
         <br />
         <br />
-&nbsp; Last Name:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <asp:TextBox ID="lNameTextbx" runat="server" Width="210px"></asp:TextBox>
+&nbsp; Last Name:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <asp:TextBox ID="lNameTextbx" runat="server" Width="210px"></asp:TextBox>
         <br />
         <br />
-&nbsp; e-mail address :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <asp:TextBox ID="emailTextbx" runat="server" Width="210px"></asp:TextBox>
+&nbsp; E-mail Address:&nbsp;&nbsp;&nbsp;&nbsp; <asp:TextBox ID="emailTextbx" runat="server" Width="210px"></asp:TextBox>
              <asp:Label ID="signUpLabel" runat="server" BackColor="#CCFFFF" BorderStyle="Double"></asp:Label>
         <br />
         <br />
-&nbsp; Phone number :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <asp:TextBox ID="phoneTextbx" runat="server" Width="210px"></asp:TextBox>
+&nbsp; Phone number:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <asp:TextBox ID="phoneTextbx" runat="server" Width="210px"></asp:TextBox>
         <br />
-&nbsp; (required for verification purposes only)<br />
-&nbsp; Age :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <asp:TextBox ID="ageTextbx" runat="server" Width="210px"></asp:TextBox>
-             <br />
-        <br />
-        &nbsp; <asp:Label ID="userNamelbl1" runat="server" Text="Create User Name:" Font-Italic="True"></asp:Label>
+             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br />
+        &nbsp; <span class="auto-style2">Username:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>
              <asp:TextBox ID="userNameTxBx" runat="server" Width="210px"></asp:TextBox>
              <br />
-<br />&nbsp;&nbsp;<asp:Label ID="passwordlbl" runat="server" Text="Create Password:" Font-Italic="True"></asp:Label>
-             &nbsp;&nbsp; <asp:TextBox ID="passwordTxBx" runat="server" Width="210px" OnTextChanged="genderTextbx1_TextChanged"></asp:TextBox>
+<br />&nbsp;&nbsp;<span class="auto-style2">Password:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>&nbsp;&nbsp; <asp:TextBox ID="passwordTxBx" runat="server" Width="210px" OnTextChanged="genderTextbx1_TextChanged"></asp:TextBox>
              <br />
              <br />
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -59,9 +53,9 @@
              <br />
              
 
-        <footer><h2>&copy; 2018, Synergy Scrum Corporation, LLC</h2>
-		<p>All Rights Reseved. Contents pertaining this app must not be shared or reproduced without prior authorization.<br/>
-		Please  <a href="./Contact.aspx">contact</a> us for more information.</p>
+        <footer><h2>&copy; 2018, Synergy Scrums Corporation, LLC</h2>
+		<p>All Rights ResevedAll RightAll Rights Reserved. Contents pertaining to this webpage must not be shared or reproduced without prior authorization.<br/>
+		Please contact us for more information.</p>
         </footer>            
     </form>
 </body>

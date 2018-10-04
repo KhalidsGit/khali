@@ -16,13 +16,8 @@ namespace TaskMaster_V1._0
 
         protected void submitButton_Click(object sender, EventArgs e)
         {
-            signUpLabel.Text = ("Yeppiee, You are in! Please Log in.");
+            signUpLabel.Text = ("Congratulations, you are now signed up! Please log in to for further access.");
             signUpLabel.ForeColor = System.Drawing.Color.Blue;
-        }
-
-        protected void genderTextbx1_TextChanged(object sender, EventArgs e)
-        {
-
         }
     }
 }

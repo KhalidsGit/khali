@@ -67,24 +67,6 @@ namespace TaskMaster_V1._0 {
         protected global::System.Web.UI.WebControls.TextBox phoneTextbx;
         
         /// <summary>
-        /// ageTextbx control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox ageTextbx;
-        
-        /// <summary>
-        /// userNamelbl1 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label userNamelbl1;
-        
-        /// <summary>
         /// userNameTxBx control.
         /// </summary>
         /// <remarks>
@@ -92,15 +74,6 @@ namespace TaskMaster_V1._0 {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox userNameTxBx;
-        
-        /// <summary>
-        /// passwordlbl control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label passwordlbl;
         
         /// <summary>
         /// passwordTxBx control.

@@ -23,9 +23,9 @@
             <asp:TextBox ID="calendarTxBx0" runat="server" Height="34px" Width="201px" BorderColor="Blue"></asp:TextBox><br />
             <asp:TextBox ID="calendarTxBx" runat="server" Height="34px" Width="201px" BorderColor="#3333CC"></asp:TextBox>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <asp:Button ID="scheduleButton" runat="server" Font-Bold="True" Font-Size="Medium" Height="55px" Text="Schedule Event" Width="169px" BorderColor="#FF3300" BorderStyle="Double" OnClick="scheduleButton_Click" />
-            <br />
-             <asp:Label ID="displayLabel" runat="server" Text="Tasks"></asp:Label><br />
+            <asp:Button ID="scheduleButton" runat="server" Font-Bold="True" Font-Size="Medium" Height="43px" Text="Schedule Event" Width="165px" BorderColor="#FF3300" BorderStyle="Double" OnClick="scheduleButton_Click" />
+            &nbsp;&nbsp;&nbsp;&nbsp;
+             <asp:Label ID="displayLabel" runat="server" BackColor="#FF3300" BorderColor="#006600" BorderStyle="Outset" Font-Bold="True" Font-Italic="True" Font-Size="X-Large" ForeColor="White"></asp:Label><br />
             <asp:Calendar ID="Calendar1" runat="server" BackColor="White" BorderColor="Black" BorderStyle="Solid" CellSpacing="1" Font-Names="Verdana" Font-Size="9pt" ForeColor="Black" Height="297px" NextPrevFormat="ShortMonth" Width="436px" Caption="Task Scheduler" OnSelectionChanged="Calendar1_SelectionChanged" OnDayRender="Calendar1_DayRender">
                             <DayHeaderStyle Font-Bold="True" Font-Size="8pt" ForeColor="#333333" Height="8pt" />
                             <DayStyle BackColor="#CCCCCC" />

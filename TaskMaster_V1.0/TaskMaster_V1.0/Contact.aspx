@@ -1,4 +1,5 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="HomePage.aspx.cs" Inherits="TaskMaster_V1._0.HomePage" %>
+﻿
+<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="HomePage.aspx.cs" Inherits="TaskMaster_V1._0.HomePage" %>
 <!DOCTYPE html>
 
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -54,7 +55,7 @@
         <strong>Marketing:</strong> <a href="mailto:Marketing@SynergyBuilt.com">Marketing@synergybuilt.com</a>
     </address>
     <h2>&copy; 2018, Synergy Scrums Corporation, LLC</h2>
-		<p>All Rights Resevred. Contents pertaining to this webpage must not be shared or reproduced without prior authorization.<br/>
+		<p>All Rights Reserved. Contents pertaining to this webpage must not be shared or reproduced without prior authorization.<br/>
 		Please  <a href="./Contact.aspx">contact</a> us for more information.</p>
    </form>
 </body>

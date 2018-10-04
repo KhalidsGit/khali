@@ -1,4 +1,5 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="HomePage.aspx.cs" Inherits="TaskMaster_V1._0.HomePage" %>
+﻿
+<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="HomePage.aspx.cs" Inherits="TaskMaster_V1._0.HomePage" %>
 
 <!DOCTYPE html>
 
@@ -23,15 +24,15 @@
         <div class="paragraphHome">
             <p>
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
-            <p>Make your busy life easier with task master.</p>
+            <p>Make your busy life easier with Task Master!</p>
                 
             <p>
-                &nbsp;Organized, scheduled and on-time activities make life better.<br />
-                We are here to help you to reach that goal for the betterment.
+                Staying organized, scheduled, and staying on time help to live a better life!<br />
+                We are here to help you to reach all your goals and keep track of all your important events!
                 <b/><br />
                 
                 
-                Please use our provided tools to create your lifestyle a better one.
+                Please use our provided tools to create events that suit your lifestyle!
             </p>
 
         </div>   

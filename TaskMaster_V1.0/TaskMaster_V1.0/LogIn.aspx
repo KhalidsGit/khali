@@ -35,7 +35,7 @@
             <br />
             <br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Need an account?<br />
-            &nbsp;<a href="SignUp.aspx">Sign Up</a> for TaskMaster now!<br />
+            &nbsp;<a href="SignUp.aspx">Sign Up</a> for Task Master now!<br />
         </div>
          <footer>
                     <h2>&nbsp;</h2>

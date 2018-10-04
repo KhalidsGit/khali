@@ -38,9 +38,6 @@
 &nbsp; E-mail Address:&nbsp;&nbsp;&nbsp;&nbsp; <asp:TextBox ID="emailTextbx" runat="server" Width="210px"></asp:TextBox>
              <asp:Label ID="signUpLabel" runat="server" BackColor="#CCFFFF" BorderStyle="Double"></asp:Label>
         <br />
-        <br />
-&nbsp; Phone number:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <asp:TextBox ID="phoneTextbx" runat="server" Width="210px"></asp:TextBox>
-        <br />
              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br />
         &nbsp; <span class="auto-style2">Username:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>
              <asp:TextBox ID="userNameTxBx" runat="server" Width="210px"></asp:TextBox>

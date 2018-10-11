@@ -22,8 +22,7 @@
                     <a href="./HomePage.aspx">Home</a>
                     <a href="./LogIn.aspx">Log In</a>
                     <a href="./SignUp.aspx">Sign Up</a>
-                    <a href="./TaskCalendar.aspx">Task Calendar</a>
-                    <a href="./Groups.aspx">Groups</a>
+                    <a href="./TaskCalendar.aspx">Task Calendar</a>                   
                     <a href="./Contact.aspx">Contact</a>
                 </nav>
         </div>
@@ -36,17 +35,17 @@
         <br />
         <br />
 &nbsp; E-mail Address:&nbsp;&nbsp;&nbsp;&nbsp; <asp:TextBox ID="emailTextbx" runat="server" Width="210px"></asp:TextBox>
-             <asp:Label ID="signUpLabel" runat="server" BackColor="#CCFFFF" BorderStyle="Double"></asp:Label>
+             <asp:Label ID="signUpLabel" runat="server" BackColor="#CCFFFF" BorderStyle="Double" Font-Bold="True" Font-Italic="True" Font-Size="X-Large" Font-Strikeout="False" OnDataBinding="submitButton_Click"></asp:Label>
         <br />
              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br />
         &nbsp; <span class="auto-style2">Username:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>
              <asp:TextBox ID="userNameTxBx" runat="server" Width="210px"></asp:TextBox>
              <br />
-<br />&nbsp;&nbsp;<span class="auto-style2">Password:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>
-             <br />
+<br />&nbsp;&nbsp;<span class="auto-style2">Password:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>
+         <asp:TextBox ID="passwordTxBx" runat="server" Width="210px"></asp:TextBox>
              <br />
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <asp:Button ID="submitButton" runat="server" Text="Submit" Font-Bold="True" Height="45px" Width="158px" />
+            <asp:Button ID="submitButton" runat="server" Text="Submit" Font-Bold="True" Height="45px" Width="158px" OnClick="submitButton_Click" />
              <br />
              
 

@@ -19,5 +19,10 @@ namespace TaskMaster_V1._0
             signUpLabel.Text = ("Congratulations, you are now signed up! Please log in for further access.");
             signUpLabel.ForeColor = System.Drawing.Color.Blue;
         }
+
+        protected void submitButton_Click1(object sender, EventArgs e)
+        {
+
+        }
     }
 }

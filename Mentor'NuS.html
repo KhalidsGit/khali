@@ -1,0 +1,158 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Sceleton for Mentor App</title>
+
+	<meta name="viewport" content="width=device-width initial-scale=1.0">
+
+	<style>
+		* {
+			box-sizing: 		border-box;
+		}
+			[class="col-lg- col-md- col-sm-"]{
+				background-image: url("download.jpg"); 
+				background-repeat: no-repeat;
+
+			}
+
+		/* For phones (portrait) unless another @media rule below is fired */
+		@media only screen and (max-width: 499px) {
+			.col-sm-00  {display: 		   none; }
+			.col-sm-12 	{width: 		   100%; }
+			body 		{background-color: black;}
+			[class*="col-sm-"] {
+				border: 		4px solid black;
+			}
+		}
+
+		/* For medium screens (e.g. landscape phones and portrait tablets) */
+		@media only screen and (min-width: 500px) {
+			.col-md-00  {display: 		   none; }
+			.col-md-01  {width: 		  8.33%; }
+			.col-md-02  {width: 		 16.66%; }
+			.col-md-03  {width: 		 25.00%; }
+			.col-md-04  {width: 		 33.33%; }
+			.col-md-05  {width: 		 41.66%; }
+			.col-md-06  {width: 		 50.00%; }
+			.col-md-07  {width: 		 58.33%; }
+			.col-md-08  {width: 		 66.66%; }
+			.col-md-09  {width: 		 75.00%; }
+			.col-md-10  {width: 		 83.33%; }
+			.col-md-11  {width: 		 91.66%; }
+			.col-md-12  {width: 		100.00%; }
+			body 		{background-color: grey;}
+			[class*="col-md-"] {
+				border: 		4px solid grey;
+			}
+		}
+
+		/* For large screens or landscape tablets*/		
+		@media only screen and (min-width: 1024px) {
+			.col-md-00  {display: 		initial; }
+			.col-sm-00  {display:       initial; }
+			.col-lg-01  {width: 		  8.33%; }
+			.col-lg-02  {width: 		 16.66%; }
+			.col-lg-03  {width: 		 25.00%; }
+			.col-lg-04  {width: 		 33.33%; }
+			.col-lg-05  {width: 		 41.66%; }
+			.col-lg-06  {width: 		 50.00%; }
+			.col-lg-07  {width: 		 58.33%; }
+			.col-lg-08  {width: 		 66.66%; }
+			.col-lg-09  {width: 		 75.00%; }
+			.col-lg-10 	{width: 		 83.33%; }
+			.col-lg-11 	{width: 		 91.66%; }
+			.col-lg-12 	{width: 		100.00%; }
+			body 		{background-color: white;}
+			[class*="col-lg-"] {
+				border: 		4px solid white;
+			}
+		}
+
+		[class*="col-"] {
+			float: 				left;
+			border-radius: 		10px;
+		}
+
+		.row::after {
+			content: 			"";
+			clear: 				both;
+			display: 			block;
+		}
+
+		.lim {background-color: #00ff00;}
+		.yel {background-color: #ffff00;}
+		.cya {background-color: #00ffff;}
+		.mar {background-color: #800000;}
+		.gre {background-color: #008000;}
+		.oli {background-color: #808000;}
+		.tea {background-color: #008080;}
+		.wht {background-color: #ffffff;}
+
+		body {
+			font-family: 		sans-serif;
+			font-size: 			12px;		
+			text-align: 		center;
+		}
+
+	</style>
+</head>
+<body>
+	<div class="row">
+		<div class="col-lg-06 col-md-12 col-sm-12 tea"><h2>Mentor'N Us</h2></div>		
+		<div class="col-lg-02 col-md-04 col-sm-12 oli"><h2>Information Tech</h2></div>		
+		<div class="col-lg-02 col-md-04 col-sm-12 oli"><h2>Finance</h2></div>		
+		<div class="col-lg-02 col-md-04 col-sm-12 oli"><h2>Customer Relations</h2></div>		
+	</div>
+	<div class="row">
+		<div class="col-lg-02 col-md-00 col-sm-00 wht"></div>
+		<div class="col-lg-08 col-md-12 col-sm-12 cya">
+			<h1>
+				<br><br><br>image placeholder<br><br><br>
+			</h1>
+		</div>
+		<div class="col-lg-02 col-md-00  col-sm-00 wht"></div>
+	</div>
+	<div class="row">
+		<div class="col-lg-02 col-md-00 col-sm-00 wht"><h2>&nbsp;</h2></div>
+		<div class="col-lg-02 col-md-03 col-sm-12 mar"><h2>Shareholder's Relations</h2></div>
+		<div class="col-lg-02 col-md-03 col-sm-12 lim"><h2>Corporate Relations</h2></div>
+		<div class="col-lg-02 col-md-03 col-sm-12 gre"><h2>Promo</h2></div>
+		<div class="col-lg-02 col-md-03 col-sm-12 yel"><h2>Place</h2></div>
+		<div class="col-lg-02 col-md-00 col-sm-00 wht"><h2>&nbsp;</h2></div>
+	</div>
+	<div class="row">
+		<div class="col-lg-02 col-md-00 col-sm-00 wht"><p>&nbsp;</p></div>
+		<div class="col-lg-02 col-md-03 col-sm-12 mar"><p>Product Story</p></div>
+		<div class="col-lg-02 col-md-03 col-sm-12 lim"><p>Price Story</p></div>
+		<div class="col-lg-02 col-md-03 col-sm-12 gre"><p>Promo Story</p></div>
+		<div class="col-lg-02 col-md-03 col-sm-12 yel"><p>Place Story</p></div>
+		<div class="col-lg-02 col-md-00 col-sm-00 wht"><p>&nbsp;</p></div>
+	</div>
+	<div class="row">
+		<div class="col-lg-02 col-md-00 col-sm-00 wht"><h2>&nbsp;</h2></div>
+		<div class="col-lg-06 col-md-06 col-sm-12 tea"><h2>Big Huge Corporate Story</h2></div>
+		<div class="col-lg-02 col-md-06 col-sm-12 oli"><h2>Contact us</h2></div>
+		<div class="col-lg-02 col-md-00 col-sm-00 wht"><h2>&nbsp;</h2></div>
+	</div>
+	<div class="row">
+		<div class="col-lg-02 col-md-00 col-sm-00 wht"><h3>&nbsp;</h3></div>
+		<div class="col-lg-02 col-md-03 col-sm-12 mar"><h3>Beginner Pa12ckage</h3></div>
+		<div class="col-lg-02 col-md-03 col-sm-12 lim"><h3>Premium Package</h3></div>
+		<div class="col-lg-02 col-md-03 col-sm-12 gre"><h3>Advanced Package</h3></div>
+		<div class="col-lg-02 col-md-03 col-sm-12 yel"><h3>Ultimate Package</h3></div>
+		<div class="col-lg-02 col-md-00 col-sm-00 wht"><h3>&nbsp;</h3></div>
+	</div>
+	<div class="row">
+		<div class="col-lg-02 col-md-00 col-sm-00 gre"><p>&nbsp;</p></div>
+		<div class="col-lg-01 col-md-02 col-sm-12 gre"><p>Careers</p></div>
+		<div class="col-lg-01 col-md-02 col-sm-12 gre"><p>Service</p></div>
+		<div class="col-lg-01 col-md-02 col-sm-12 gre"><p>Contact</p></div>
+		<div class="col-lg-01 col-md-02 col-sm-12 gre"><p>FAQ</p></div>
+		<div class="col-lg-02 col-md-00 col-sm-00 gre"><p>&nbsp;</p></div>
+		<div class="col-lg-02 col-md-04 col-sm-12 gre"><p>copyright 2016</p></div>
+		<div class="col-lg-02 col-md-00 col-sm-00 gre"><p>&nbsp;</p></div>
+	</div>
+</body>
+</html>
